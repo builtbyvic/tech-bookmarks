@@ -322,7 +322,6 @@
   }
   figure {
     font-size: var(--large);
-    white-space: nowrap;
   }
   .rotate {
     transform: rotate(180deg);
