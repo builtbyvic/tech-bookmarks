@@ -11,7 +11,7 @@
       isOpen: false,
     },
     {
-      "🧑🏿‍💻 I want to be a Web Developer (Beginner)": ['developer.mozilla.org/en-US/','web.dev/learn','htmlreference.io','nodejs.dev/en/learn/','wesbos.com/javascript','github.com','jenniferdewalt.com','goalkicker.com','www.frontendmentor.io/challenges','builtbyvic.github.io','cssreference.io','w3schools.com'],
+      "🧑🏿‍💻 I want to be a Web Developer (Beginner)": ['developer.mozilla.org/en-US/','web.dev/learn','htmlreference.io','nodejs.dev/en/learn/','wesbos.com/javascript','github.com','jenniferdewalt.com','goalkicker.com','frontendmentor.io/challenges','builtbyvic.github.io','cssreference.io','w3schools.com'],
       id: 2,
       isOpen: false,
     },
@@ -208,6 +208,7 @@
   article {
     border: var(--border-glass);
     border-radius: var(--xs);
+    max-inline-size: 66ch;
     padding: var(--regular);
     position: relative;
   }
@@ -290,6 +291,7 @@
     border-block-end: var(--border-glass);
     font-size: var(--large);
     letter-spacing: 0.05ch;
+    overflow-wrap: break-word;
     padding-block: var(--regular);
     transition: all 200ms ease-in-out;
   }
@@ -302,8 +304,10 @@
     transition: all 200ms ease-in-out;
   }
   section {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: var(--regular);
+    justify-content: center;
     margin-block-end: var(--xl);
   }
   footer {
@@ -323,8 +327,23 @@
   figure {
     font-size: var(--large);
   }
+  blockquote {
+    margin: 0;
+  }
   .rotate {
     transform: rotate(180deg);
     transition: all 200ms ease-in-out;
+  }
+  @media (max-width: 640px) {
+    header > a {
+      font-size: var(--xxxl);
+    }
+    ul li {
+      font-size: var(--regular);
+    }
+    article header h1 {
+      font-size: var(--regular);
+      text-align: center;
+    }
   }
 </style>
