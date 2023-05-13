@@ -145,6 +145,9 @@
 </main>
 
 <style>
+  main {
+    inline-size: 100%;
+  }
   a {
     display: inline-block;
     color: currentColor;
