@@ -1,0 +1,32 @@
+:root {
+  font-family: "Satoshi", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --xs: 0.25rem;
+  --small: 0.5rem;
+  --medium: 0.75rem;
+  --regular: 1rem;
+  --large: 1.25rem;
+  --xl: 1.5rem;
+  --xxl: 1.75rem;
+  --xxxl: 2rem;
+  --border-glass: 1px solid rgba(255, 255, 255, 0.1);
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
