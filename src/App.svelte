@@ -11,7 +11,7 @@
       isOpen: false,
     },
     {
-      "🧑🏿‍💻 I want to be a Web Developer (Beginner)": ['developer.mozilla.org/en-US/','web.dev/learn','htmlreference.io','nodejs.dev/en/learn/','wesbos.com/javascript','github.com','jenniferdewalt.com','goalkicker.com','frontendmentor.io/challenges','builtbyvic.github.io','cssreference.io','w3schools.com'],
+      "🧑🏿‍💻 I want to be a Web Developer (Basic HTML & CSS)": ['builtbyvic.github.io','developer.mozilla.org/en-US/docs/Web/HTML','web.dev/learn/html','codecademy.com/learn/learn-html','freecodecamp.org/news/html-crash-course/','w3schools.com/html','htmlreference.io','web.dev/learn/css','cssreference.io','jenniferdewalt.com','frontendmentor.io/challenges',],
       id: 2,
       isOpen: false,
     },
@@ -21,83 +21,93 @@
       isOpen: false,
     },
     {
-      "🔮 CSS is my Passion": ['web.dev/learn/css','unocss.dev','una.im','lightningcss.dev','caniuse.com','sass-lang.com','thinkdobecreate.com/articles/minimum-static-site-sass-setup','joshwcomeau.com/css/custom-css-reset/','joshwcomeau.com','css-examples.wizardzines.com/','courses.kevinpowell.co/conquering-responsive-layouts','freebiesupply.com/blog/css-layouts/','bulma.io','bootstrapstudio.io','30secondsofcode.org','open-props.style','designcember.com','tailwindcss.com','picocss.com','pod.link/thecsspodcast/','every-layout.dev','1linelayouts.glitch.me','smashingmagazine.com/2018/05/guide-css-layout','gridbyexample.com','web.dev/shows/gui-challenges/','web.dev/shows/designing-in-the-browser/','caninclude.glitch.me','flowbite.com'],
+      "🔮 CSS is my Passion": ['web.dev/learn/css','unocss.dev','una.im','lightningcss.dev','caniuse.com','sass-lang.com','thinkdobecreate.com/articles/minimum-static-site-sass-setup','joshwcomeau.com/css/custom-css-reset/','joshwcomeau.com','css-examples.wizardzines.com/','courses.kevinpowell.co/conquering-responsive-layouts','freebiesupply.com/blog/css-layouts/','bulma.io','30secondsofcode.org','open-props.style','designcember.com','tailwindcss.com','picocss.com','pod.link/thecsspodcast/','every-layout.dev','1linelayouts.glitch.me','smashingmagazine.com/2018/05/guide-css-layout','gridbyexample.com','web.dev/shows/gui-challenges/','web.dev/shows/designing-in-the-browser/','caninclude.glitch.me','flowbite.com','getbootstrap.com','codecademy.com/learn/learn-css','w3schools.com/css','developer.mozilla.org/en-US/docs/Web/CSS','nerdy.dev','set.studio'],
       id: 4,
       isOpen: false,
     },
     {
-      "💻 I have a Sh**ty Laptop (Use REPLs)": ['glitch.com','codepen.io','vscode.dev','stackblitz.com','codesandbox.io','svelte.dev/repl/hello-world?version=3.59.1'],
+      "📽️ I'm a Visual Learner": ['youtube.com/c/WebDevSimplified','youtube.com/c/TraversyMedia','youtube.com/c/Freecodecamp','youtube.com/c/programmingwithmosh','youtube.com/c/DevEd','youtube.com/c/TheCoderCoder','youtube.com/kepowob'],
       id: 5,
       isOpen: false,
     },
     {
-      "🤯 I know HTML & CSS, but not JavaScript": ['javascript.info','w3schools.com/js/','developer.mozilla.org/en-US/docs/Web/JavaScript','codecademy.com/learn/introduction-to-javascript','wesbos.com/javascript','nodejs.dev/en/learn/'],
+      "💻 I have a Sh**ty Laptop (Use REPLs)": ['glitch.com','codepen.io','vscode.dev','stackblitz.com','codesandbox.io','svelte.dev/repl/hello-world?version=3.59.1'],
       id: 6,
       isOpen: false,
     },
     {
-      "😏 I know JavaScript, what Next?": ['svelte.dev','vuejs.org','react.dev','angular.io','vuemastery.com','vueschool.io','formkit.com','basarat.gitbook.io/typescript/','astro.build','typescriptlang.org'],
+      "🤯 I know HTML & CSS, but not JavaScript": ['javascript.info','w3schools.com/js/','developer.mozilla.org/en-US/docs/Web/JavaScript','codecademy.com/learn/introduction-to-javascript','wesbos.com/javascript','nodejs.dev/en/learn/'],
       id: 7,
       isOpen: false,
     },
     {
-      "🤖 I want to build Full-Stack Web Apps with Javascript": ['kit.svelte.dev','nuxt.com/docs/getting-started/introduction','nextjs.org'],
+      "😏 I know JavaScript, what Next?": ['svelte.dev','vuejs.org','react.dev','angular.io','vuemastery.com','vueschool.io','formkit.com','basarat.gitbook.io/typescript/','astro.build','typescriptlang.org'],
       id: 8,
       isOpen: false,
     },
     {
-      "🪄 I want to do Animations with JavaScript": ['spline.design','rive.app','greensock.com','barba.js.org','threejs.org','motion.dev','theatrejs.com','michalsnik.github.io/aos/','animejs.com'],
+      "🤖 I want to build Full-Stack Web Apps with Javascript": ['kit.svelte.dev','nuxt.com/docs/getting-started/introduction','nextjs.org'],
       id: 9,
       isOpen: false,
     },
     {
-      "😭 I don't want to Learn Code": ['wordpress.org','notion.so/help/guides','framer.com/learn/','docs.super.so','webflow.com'],
+      "🪄 I want to do Animations with JavaScript": ['spline.design','rive.app','greensock.com','barba.js.org','threejs.org','motion.dev','theatrejs.com','michalsnik.github.io/aos/','animejs.com'],
       id: 10,
       isOpen: false,
     },
     {
-      "😁 I like to be guided through Every Step of the Way": ['learn.microsoft.com/en-us/','grow.google/intl/ssa-en/'],
+      "😭 I don't want to Learn Code": ['wordpress.org','notion.so/help/guides','framer.com/learn/','docs.super.so','webflow.com'],
       id: 11,
       isOpen: false,
     },
     {
-      "☁️ I've made a project, how do I share it with the World?": ['vercel.com','firebase.google.com','netlify.com','render.com','surge.sh','docs.gitlab.com/ee/user/project/pages/','super.so/pricing','pages.github.com'],
+      "😁 I like to be guided through Every Step of the Way": ['learn.microsoft.com/en-us/','grow.google/intl/ssa-en/'],
       id: 12,
       isOpen: false,
     },
     {
-      "✒️ I don't have Fonts for my project": ['fonts.google.com','fonts.ilovetypography.com/','developer.apple.com/fonts/','fonts.adobe.com','fontshare.com'],
+      "☁️ I've made a project, how do I share it with the World?": ['vercel.com','firebase.google.com','netlify.com','render.com','surge.sh','docs.gitlab.com/ee/user/project/pages/','super.so/pricing','pages.github.com'],
       id: 13,
       isOpen: false,
     },
     {
-      "🦉 I need Icons for my project": ['iconic.app','heroicons.com','healthicons.org','icons8.com/icons','iconscout.com','flaticon.com','fontawesome.com','openmoji.org/library/','feathericons.com','icones.js.org/collection/solar'],
+      "✒️ I don't have Fonts for my project": ['fonts.google.com','fonts.ilovetypography.com/','developer.apple.com/fonts/','fonts.adobe.com','fontshare.com'],
       id: 14,
       isOpen: false,
     },
     {
-      "🖼️ I need FREE Images for my project": ['unsplash.com','pexels.com'],
+      "🦉 I need Icons for my project": ['iconic.app','heroicons.com','healthicons.org','icons8.com/icons','iconscout.com','flaticon.com','fontawesome.com','openmoji.org/library/','feathericons.com','icones.js.org/collection/solar'],
       id: 15,
       isOpen: false,
     },
     {
-      "⚒️ Developer Tools": ['parceljs.org','vitejs.dev','git-scm.com','plausible.io','jsv9000.app','atlassian.com/git','devina.io/svg-minifier'],
+      "🖼️ I need FREE Images for my project": ['unsplash.com','pexels.com'],
       id: 16,
       isOpen: false,
     },
     {
-      "⌨️ Code Editors": ['code.visualstudio.com/download','notepad-plus-plus.org/downloads/','brackets.io','sublimetext.com','jetbrains.com/pycharm/'],
+      "⚒️ Developer Tools": ['chat.openai.com','parceljs.org','vitejs.dev','git-scm.com','plausible.io','jsv9000.app','atlassian.com/git','devina.io/svg-minifier','github.com','jsdelivr.com','npmjs.com'],
       id: 17,
       isOpen: false,
     },
     {
-      "📰 Content Management Systems": ['wordpress.org','builder.io','strapi.io'],
+      "⌨️ Code Editors": ['code.visualstudio.com/download','notepad-plus-plus.org/downloads/','brackets.io','sublimetext.com','jetbrains.com/pycharm/','bootstrapstudio.io'],
       id: 18,
       isOpen: false,
     },
     {
-      "📅 Database Systems": ['supabase.com'],
+      "📰 Content Management Systems": ['wordpress.org','builder.io','strapi.io'],
       id: 19,
+      isOpen: false,
+    },
+    {
+      "📅 Database Systems": ['supabase.com'],
+      id: 20,
+      isOpen: false,
+    },
+    {
+      "📚 Free Programming Books": ['goalkicker.com'],
+      id: 21,
       isOpen: false,
     }
   ];
@@ -132,8 +142,8 @@
     {/each}
   </section>
   <footer>
-    <a href="https:twitter.com/vicdontmiss">
-      @vicdontmiss
+    <a href="https:github.com/builtbyvic">
+      builtbyvic
       <span></span>
     </a>
     <figure>
