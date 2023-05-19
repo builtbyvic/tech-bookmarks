@@ -56,7 +56,7 @@
       isOpen: false,
     },
     {
-      "😭 I don't want to Learn Code": ['wordpress.org','notion.so/help/guides','framer.com/learn/','docs.super.so','webflow.com'],
+      "😭 I don't want to Learn Code": ['framer.com/learn/','notion.so/help/guides','','docs.super.so','wordpress.org','webflow.com'],
       id: 11,
       isOpen: false,
     },
@@ -71,7 +71,7 @@
       isOpen: false,
     },
     {
-      "✒️ I don't have Fonts for my project": ['fonts.google.com','fonts.ilovetypography.com/','developer.apple.com/fonts/','fonts.adobe.com','fontshare.com'],
+      "✒️ I don't have Fonts for my project": ['fonts.google.com','fonts.ilovetypography.com/','developer.apple.com/fonts/','fonts.adobe.com','fontshare.com','nerdfonts.com/font-downloads'],
       id: 14,
       isOpen: false,
     },
@@ -86,7 +86,7 @@
       isOpen: false,
     },
     {
-      "⚒️ Developer Tools": ['chat.openai.com','parceljs.org','vitejs.dev','git-scm.com','plausible.io','jsv9000.app','atlassian.com/git','devina.io/svg-minifier','github.com','jsdelivr.com','npmjs.com'],
+      "⚒️ Developer Tools": ['chat.openai.com','parceljs.org','vitejs.dev','git-scm.com','plausible.io','jsv9000.app','atlassian.com/git','devina.io/svg-minifier','github.com','jsdelivr.com','npmjs.com','brew.sh','temp-mail.org/en/'],
       id: 17,
       isOpen: false,
     },
@@ -109,6 +109,12 @@
       "📚 Free Programming Books": ['goalkicker.com'],
       id: 21,
       isOpen: false,
+    },
+    {
+      "🤓 Terminal": ['github.com/microsoft/terminal','scoop.sh/','starship.rs','iterm2.com']
+    },
+    {
+      "🔙 If you ever decide to do Back-End": ['go.dev','cheats.rs']
     }
   ];
   
@@ -116,12 +122,19 @@
 
 <main>
   <header>
-    <a href="/">
-      tech-bookmarks
-      <span></span>
-    </a> 
-    <span><a href="https://svelte.dev">* made with svelte</a></span>
+    <nav>
+      <a href="/">
+        tech-bookmarks
+        <span></span>
+      </a> 
+      <span><a href="https://svelte.dev">* made with svelte</a></span>
+    </nav>
+    <a href="https://builtbyvic.github.io" target="_blank">first time?</a>
   </header>
+  <div class="input-wrapper">
+    <label for="search">🔎</label>
+    <input type="search" id="search" placeholder="Coming Soon..."/>
+  </div>
   <section>
     {#each cards as card, index}
       <article>
@@ -155,6 +168,10 @@
 </main>
 
 <style>
+  ::placeholder {
+    color: rgba(255 255 255 / 0.5);
+    font-size: var(--large);
+  }
   a {
     display: inline-block;
     color: currentColor;
@@ -173,10 +190,19 @@
     margin: 0;
     padding: 0;
   }
+  label {
+    cursor: pointer;
+  }
   main > header {
     margin-block-end: var(--regular);
   }
-  header > a {
+  header {
+    align-items: center;
+    display: flex;
+    gap: var(--xs);
+    /* justify-content: space-between; */
+  }
+  header nav > a {
     display: initial;
     font-size: 3rem;
     font-weight: 700;
@@ -187,6 +213,37 @@
   }
   header a span {
     background-image: linear-gradient(to right,#6A359C, #B589D6);
+  }
+  header > a {
+    background-color: #000;
+    background-image: linear-gradient(to right,#000, rgba(255 255 255 / 0.1));
+    border: var(--border-glass);
+    border-radius: var(--xs);
+    font-size: var(--large);
+    inline-size: auto;
+    padding: var(--medium) var(--large) var(--medium);
+    white-space: nowrap;
+  }
+  header > a:hover {
+    background-image: linear-gradient(to right,rgba(0 0 0 / 0.9),rgba(255 255 255 / 0.2));
+  }
+  .input-wrapper {
+    /* border: 2px solid red; */
+    align-items: center;
+    display: flex;
+    font-size: var(--xxl);
+    inline-size: 540px;
+    margin-block: var(--large);
+  }
+  [type="search"] {
+    background-color: transparent;
+    border: var(--border-glass);
+    border-radius: var(--large);
+    padding: var(--large);
+    inline-size: 100%;
+  }
+  [type="search"]:focus {
+    outline: 1px solid rgba(255 255 255 / 0.2);
   }
   header a span,
   footer a span {
@@ -203,7 +260,7 @@
     inline-size: 100%;
     transition: all 200ms ease-out;
   }
-  main header > span {
+  main header nav > span {
     background-image: linear-gradient(to right,#FF6200, #FDB777);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -345,8 +402,15 @@
     transition: all 200ms ease-in-out;
   }
   @media (max-width: 640px) {
+    header nav > a {
+      font-size: var(--xxl);
+    }
     header > a {
-      font-size: var(--xxxl);
+      padding: var(--small) var(--regular) var(--small);
+      font-size: var(--regular);
+    }
+    .input-wrapper {
+      inline-size: 100%;
     }
     ul li {
       font-size: var(--regular);
