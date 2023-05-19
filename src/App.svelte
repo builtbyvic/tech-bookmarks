@@ -124,7 +124,7 @@
   <header>
     <nav>
       <a href="/">
-        tech-bookmarks
+        tech~<br id="break"/>bookmarks
         <span></span>
       </a> 
       <span><a href="https://svelte.dev">* made with svelte</a></span>
@@ -193,14 +193,15 @@
   label {
     cursor: pointer;
   }
+  #break {
+    display: none;
+  }
   main > header {
     margin-block-end: var(--regular);
-  }
-  header {
     align-items: center;
     display: flex;
     gap: var(--xs);
-    /* justify-content: space-between; */
+    justify-content: space-between;
   }
   header nav > a {
     display: initial;
@@ -402,6 +403,9 @@
     transition: all 200ms ease-in-out;
   }
   @media (max-width: 640px) {
+    #break {
+      display: initial;
+    }
     header nav > a {
       font-size: var(--xxl);
     }
