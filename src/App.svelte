@@ -168,6 +168,11 @@
 </main>
 
 <style>
+  main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
   ::placeholder {
     color: rgba(255 255 255 / 0.5);
     font-size: var(--large);
