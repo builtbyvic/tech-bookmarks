@@ -163,7 +163,8 @@
       <blockquote>"I feel like he disrespected me. Tried to say I wasn't a genius."</blockquote>
       <figcaption>- Kanye West, 2002.</figcaption>
     </figure>
-    <span>All rights reserved, 2040 by Vic⚡</span>
+    <span>All rights reserved, 2030 by Vic⚡</span>
+    <span>Sent from my iPad</span>
   </footer>
 </main>
 
