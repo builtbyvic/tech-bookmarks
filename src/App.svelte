@@ -164,7 +164,6 @@
       <figcaption>- Kanye West, 2002.</figcaption>
     </figure>
     <span>All rights reserved, 2030 by Vic⚡</span>
-    <span>Sent from my iPad</span>
   </footer>
 </main>
 
