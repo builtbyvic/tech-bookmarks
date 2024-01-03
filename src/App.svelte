@@ -26,95 +26,95 @@
       isOpen: false,
     },
     {
-      "📽️ I'm a Visual Learner": ['youtube.com/c/WebDevSimplified','youtube.com/c/TraversyMedia','youtube.com/c/Freecodecamp','youtube.com/c/programmingwithmosh','youtube.com/c/DevEd','youtube.com/c/TheCoderCoder','youtube.com/kepowob'],
+      "📽️ I'm a Visual Learner (YouTube)": [{'Web Dev Simplified':'youtube.com/c/WebDevSimplified'},{'Traversy Media':'youtube.com/c/TraversyMedia'},{'FreeCodeCamp':'youtube.com/c/Freecodecamp'},{'Programming with Mosh':'youtube.com/c/programmingwithmosh'},{'Dev Ed':'youtube.com/c/DevEd'},{'Coder Coder':'youtube.com/c/TheCoderCoder'},{'Kevin Powell':'youtube.com/kepowob'}],
       id: 5,
       isOpen: false,
     },
     {
-      "💻 I have a Sh**ty Laptop (Use REPLs)": ['glitch.com','codepen.io','vscode.dev','stackblitz.com','codesandbox.io','svelte.dev/repl/hello-world?version=3.59.1'],
+      "😔 I have a Sh**ty Laptop (Use REPLs)": [{'Glitch':'glitch.com'},{'CodePen':'codepen.io'},{'VS Code Online':'vscode.dev'},{'Stackblitz':'stackblitz.com'},{'CodeSandbox':'codesandbox.io'},{'Svelte REPL':'svelte.dev/repl/hello-world?version=3.59.1'}],
       id: 6,
       isOpen: false,
     },
     {
-      "🤯 I know HTML & CSS, but not JavaScript": ['javascript.info','w3schools.com/js/','developer.mozilla.org/en-US/docs/Web/JavaScript','codecademy.com/learn/introduction-to-javascript','wesbos.com/javascript','nodejs.dev/en/learn/'],
+      "🤯 I know HTML & CSS, but not JavaScript": [{'Modern JS Tutorial':'javascript.info'},{'W3Schools JS':'w3schools.com/js/'},{'Mozilla JS Docs':'developer.mozilla.org/en-US/docs/Web/JavaScript'},{'Codecademy JS':'codecademy.com/learn/introduction-to-javascript'},{'Wes Bos JS Tutorial':'wesbos.com/javascript'},{'Learn Node JS':'nodejs.dev/en/learn/'}],
       id: 7,
       isOpen: false,
     },
     {
-      "😏 I know JavaScript, what Next?": ['svelte.dev','vuejs.org','react.dev','angular.io','vuemastery.com','vueschool.io','formkit.com','basarat.gitbook.io/typescript/','astro.build','typescriptlang.org'],
+      "😏 I know JavaScript, what Next? (JS Frameworks)": [{'Svelte':'svelte.dev'},{'Vue JS':'vuejs.org'},{'React':'react.dev'},{'Angular':'angular.io'},{'Vue Mastery (Vue)':'vuemastery.com'},{'Vue School (Vue)':'vueschool.io'},{'Formkit (Vue forms)':'formkit.com'},{'TypeScript Deep Dive':'basarat.gitbook.io/typescript/'},{'Astro':'astro.build'},{'TypeScript':'typescriptlang.org'}],
       id: 8,
       isOpen: false,
     },
     {
-      "🤖 I want to build Full-Stack Web Apps with Javascript": ['kit.svelte.dev','nuxt.com/docs/getting-started/introduction','nextjs.org'],
+      "🤖 I want to build Full-Stack Web Apps with Javascript": [{'SvelteKit (Svelte)':'kit.svelte.dev'},{'Nuxt (Vue JS)':'nuxt.com/docs/getting-started/introduction'},{'Next JS (React)':'nextjs.org'},{'Meteor.js':'https://www.meteor.com/'}],
       id: 9,
       isOpen: false,
     },
     {
-      "🪄 I want to do Animations with JavaScript": ['spline.design','rive.app','greensock.com','barba.js.org','threejs.org','motion.dev','theatrejs.com','michalsnik.github.io/aos/','animejs.com'],
+      "🪄 I want to do Animations with JavaScript": [{'Spline (3D)':'spline.design'},{'Rive':'rive.app'},{'GSAP':'greensock.com'},{'Barba.js (transitions)':'barba.js.org'},{'Three.js (3D)':'threejs.org'},{'Motion One':'motion.dev'},{'Theatre.js':'theatrejs.com'},{'Animate On Scroll':'michalsnik.github.io/aos/'},{'Anime.js':'animejs.com'}],
       id: 10,
       isOpen: false,
     },
     {
-      "😭 I don't want to Learn Code": ['framer.com/learn/','notion.so/help/guides','','docs.super.so','wordpress.org','webflow.com'],
+      "😭 I don't want to Learn Code": [{'Framer':'framer.com/learn/'},{'Notion':'notion.so/help/guides'},{'Super':'docs.super.so'},{'WordPress':'wordpress.org'},{'Webflow':'webflow.com'},{'Shopify':'https://www.shopify.com/'}],
       id: 11,
       isOpen: false,
     },
     {
-      "😁 I like to be guided through Every Step of the Way": ['learn.microsoft.com/en-us/','grow.google/intl/ssa-en/'],
+      "😁 I like to be guided through Every Step of the Way": [{'Microsoft Learn':'learn.microsoft.com/en-us/'},{'Grow with Google':'grow.google/intl/ssa-en/'}],
       id: 12,
       isOpen: false,
     },
     {
-      "☁️ I've made a project, how do I share it with the World?": ['vercel.com','firebase.google.com','netlify.com','render.com','surge.sh','docs.gitlab.com/ee/user/project/pages/','super.so/pricing','pages.github.com'],
+      "☁️ I've made a project, how do I share it with the World?": [{'Vercel':'vercel.com'},{'Firebase':'firebase.google.com'},{'Netlify':'netlify.com'},{'Render':'render.com'},{'Surge':'surge.sh'},{'GitLab':'docs.gitlab.com/ee/user/project/pages/'},{'Super':'super.so/pricing'},{'Github Pages':'pages.github.com'}],
       id: 13,
       isOpen: false,
     },
     {
-      "✒️ I don't have Fonts for my project": ['fonts.google.com','fonts.ilovetypography.com/','developer.apple.com/fonts/','fonts.adobe.com','fontshare.com','nerdfonts.com/font-downloads'],
+      "✒️ I don't have Fonts for my project": [{'Google Fonts':'fonts.google.com'},{'I Love Typography':'fonts.ilovetypography.com/'},{'Apple Fonts':'developer.apple.com/fonts/'},{'Adobe Fonts':'fonts.adobe.com'},{'Fontshare':'fontshare.com'},{'Nerd Fonts':'nerdfonts.com/font-downloads'}],
       id: 14,
       isOpen: false,
     },
     {
-      "🦉 I need Icons for my project": ['iconic.app','heroicons.com','healthicons.org','icons8.com/icons','iconscout.com','flaticon.com','fontawesome.com','openmoji.org/library/','feathericons.com','icones.js.org/collection/solar'],
+      "🦉 I need Icons for my project": [{'Iconic':'iconic.app'},{'Heroicons':'heroicons.com'},{'Health icons':'healthicons.org'},{'Icons8':'icons8.com/icons'},{'Iconscout':'iconscout.com'},{'Flat Icon':'flaticon.com'},{'Fontawesome':'fontawesome.com'},{'Openmoji':'openmoji.org/library/'},{'Feathericons':'feathericons.com'},{'Icones':'icones.js.org/collection/solar'}],
       id: 15,
       isOpen: false,
     },
     {
-      "🖼️ I need FREE Images for my project": ['unsplash.com','pexels.com'],
+      "🖼️ I need FREE Images for my project": [{'Unsplash':'unsplash.com'},{'Pexels':'pexels.com'}],
       id: 16,
       isOpen: false,
     },
     {
-      "⚒️ Developer Tools": ['chat.openai.com','parceljs.org','vitejs.dev','git-scm.com','plausible.io','jsv9000.app','atlassian.com/git','devina.io/svg-minifier','github.com','jsdelivr.com','npmjs.com','brew.sh','temp-mail.org/en/'],
+      "⚒️ Developer Tools": [{'ChatGPT':'chat.openai.com'},{'Parcel':'parceljs.org'},{'Vite':'vitejs.dev'},{'Git Docs':'git-scm.com'},{'Plausible Analytics':'plausible.io'},{'JS Visualizer':'jsv9000.app'},{'Learn Git by Atlassian':'atlassian.com/git'},{'Devina DevTools':'devina.io/'},{'Github':'github.com'},{'JSdelivr (CDN)':'jsdelivr.com'},{'NPM website':'npmjs.com'},{'MacOS Package Manager':'brew.sh'},{'Temp Mail':'temp-mail.org/en/'}],
       id: 17,
       isOpen: false,
     },
     {
-      "⌨️ Code Editors": ['code.visualstudio.com/download','notepad-plus-plus.org/downloads/','brackets.io','sublimetext.com','jetbrains.com/pycharm/','bootstrapstudio.io'],
+      "⌨️ Code Editors": [{'VS Code':'code.visualstudio.com/download'},{'Notepad++':'notepad-plus-plus.org/downloads/'},{'Brackets':'brackets.io'},{'Sublime Text':'sublimetext.com'},{'PyCharm':'jetbrains.com/pycharm/'},{'Bootstrap Studio':'bootstrapstudio.io'}],
       id: 18,
       isOpen: false,
     },
     {
-      "📰 Content Management Systems": ['wordpress.org','builder.io','strapi.io'],
+      "📰 Content Management Systems": [{'Wordpress CMS':'wordpress.org'},{'Builder.io':'builder.io'},{'Strapi':'strapi.io'}],
       id: 19,
       isOpen: false,
     },
     {
-      "📅 Database Systems": ['supabase.com'],
+      "📅 Database Systems": [{'Supabase':'supabase.com'}],
       id: 20,
       isOpen: false,
     },
     {
-      "📚 Free Programming Books": ['goalkicker.com'],
+      "📚 Free Programming Books": [{'Goalkicker':'goalkicker.com'}],
       id: 21,
       isOpen: false,
     },
     {
-      "🤓 Terminal": ['github.com/microsoft/terminal','scoop.sh/','starship.rs','iterm2.com']
+      "🤓 Terminal": [{'Windows Terminal':'github.com/microsoft/terminal'},{'Scoop':'scoop.sh/'},{'Starship (fun)':'starship.rs'},{'iTerm2 (MacOS)':'iterm2.com'}]
     },
     {
-      "🔙 If you ever decide to do Back-End": ['go.dev','cheats.rs']
+      "🔙 If you ever decide to do Back-End": [{'Go':'go.dev'},{'Rust cheats (Rust)':'cheats.rs'}]
     }
   ];
   
