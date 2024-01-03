@@ -6,22 +6,22 @@
   // data
   let cards = [
     {
-      "🎨 I just want to Design": ['figma.com','lawsofux.com','developer.apple.com/design/human-interface-guidelines/','m3.material.io','checklist.design','awwwards.com','dribbble.com','pinterest.com','brandingstyleguides.com/guide','layers.to/layers/discover','imagecolorpicker.com','figma.com/resources/learn-design/'],
+      "🎨 I just want to Design": [{'Figma':'figma.com'},{'Laws of UX': 'lawsofux.com'},{'Apple Human Interface Guidelines':'developer.apple.com/design/human-interface-guidelines/'},{'Material Design by Google':'m3.material.io'},{'Design Checklist':'checklist.design'},{'Awwwards':'awwwards.com'},{'Dribbble':'dribbble.com'},{'Pinterest':'pinterest.com'},{'Branding Style Guides':'brandingstyleguides.com/guide'},{'Layers':'layers.to/layers/discover'},{'Image Color Picker':'imagecolorpicker.com'},{'Figma Design Resources':'figma.com/resources/learn-design/'}],
       id: 1,
       isOpen: false,
     },
     {
-      "🧑🏿‍💻 I want to be a Web Developer (Basic HTML & CSS)": ['builtbyvic.github.io','developer.mozilla.org/en-US/docs/Web/HTML','web.dev/learn/html','codecademy.com/learn/learn-html','freecodecamp.org/news/html-crash-course/','w3schools.com/html','htmlreference.io','web.dev/learn/css','cssreference.io','jenniferdewalt.com','frontendmentor.io/challenges',],
+      "🧑🏿‍💻 I want to be a Web Developer (Basic HTML & CSS)": [{'Getting Started':'builtbyvic.github.io'},{'Mozilla Web Docs':'developer.mozilla.org/en-US/docs/Web/HTML'},{'web.dev HTML':'web.dev/learn/html'},{'Codecademy HTML':'codecademy.com/learn/learn-html'},{'FreeCodeCamp HTML':'freecodecamp.org/news/html-crash-course/'},{'W3Schools HTML':'w3schools.com/html'},{'HTML Elements Reference':'htmlreference.io'},{'web.dev CSS':'web.dev/learn/css'},{'CSS Properties Reference':'cssreference.io'},{'Jennifer Dewalt Challenges':'jenniferdewalt.com'},{'Frontend Mentor':'frontendmentor.io/challenges'},],
       id: 2,
       isOpen: false,
     },
     {
-      "😎 I want to be a 10X Web Developer (Advanced)": ['css-tricks.com/grainy-gradients/','components.ai','visbug.web.app','npmjs.com','wizardzines.com','bitsofco.de','frontendpractice.com','ihatetomatoes.net','developers.google.com','developer.chrome.com','devdocs.io','codingfantasy.com','atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud','dev.to','chalk.ist','jvns.ca'],
+      "😎 I want to be a 10X Web Developer (Advanced)": [{'Grainy Gradients':'css-tricks.com/grainy-gradients/'},{'Components':'components.ai'},{'VisBug':'visbug.web.app'},{'NPM Website':'npmjs.com'},{'Wizard Zines':'wizardzines.com'},{'Bits of Code':'bitsofco.de'},{'Frontend Practice':'frontendpractice.com'},{'I Hate Tomatoes':'ihatetomatoes.net'},{'Google Developers':'developers.google.com'},{'Chrome Developers':'developer.chrome.com'},{'Dev Docs':'devdocs.io'},{'Coding Fantasy':'codingfantasy.com'},{'Git by Atlassian':'atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud'},{'dev.to':'dev.to'},{'chalk.ist':'chalk.ist'},{'Julia Evans':'jvns.ca'}],
       id: 3,
       isOpen: false,
     },
     {
-      "🔮 CSS is my Passion": ['web.dev/learn/css','unocss.dev','una.im','lightningcss.dev','caniuse.com','sass-lang.com','thinkdobecreate.com/articles/minimum-static-site-sass-setup','joshwcomeau.com/css/custom-css-reset/','joshwcomeau.com','css-examples.wizardzines.com/','courses.kevinpowell.co/conquering-responsive-layouts','freebiesupply.com/blog/css-layouts/','bulma.io','30secondsofcode.org','open-props.style','designcember.com','tailwindcss.com','picocss.com','pod.link/thecsspodcast/','every-layout.dev','1linelayouts.glitch.me','smashingmagazine.com/2018/05/guide-css-layout','gridbyexample.com','web.dev/shows/gui-challenges/','web.dev/shows/designing-in-the-browser/','caninclude.glitch.me','flowbite.com','getbootstrap.com','codecademy.com/learn/learn-css','w3schools.com/css','developer.mozilla.org/en-US/docs/Web/CSS','nerdy.dev','set.studio'],
+      "🔮 CSS is my Passion": [{'web.dev CSS':'web.dev/learn/css'},{'Uno CSS':'unocss.dev'},{'Una Kravets':'una.im'},{'Lightning CSS':'lightningcss.dev'},{'Can I Use':'caniuse.com'},{'SASS':'sass-lang.com'},{'Minimal SASS site setup':'thinkdobecreate.com/articles/minimum-static-site-sass-setup'},{'Custom CSS Reset':'joshwcomeau.com/css/custom-css-reset/'},{'Josh W. Comeau':'joshwcomeau.com'},{'CSS Examples by Wizard Zines':'css-examples.wizardzines.com/'},{'Responsive Layouts by Kevin Powell':'courses.kevinpowell.co/conquering-responsive-layouts'},{'CSS Layouts':'freebiesupply.com/blog/css-layouts/'},{'Bulma CSS':'bulma.io'},{'30 Seconds of Code':'30secondsofcode.org'},{'Open Props':'open-props.style'},{'Designcember by Google':'designcember.com'},{'TailwindCSS':'tailwindcss.com'},{'Pico CSS':'picocss.com'},{'The CSS Podcast':'pod.link/thecsspodcast/'},{'Every Layout':'every-layout.dev'},{'1 Line Layouts by Una':'1linelayouts.glitch.me'},{'CSS Layout Guide':'smashingmagazine.com/2018/05/guide-css-layout'},{'Grid by Example':'gridbyexample.com'},{'GUI Challenges':'web.dev/shows/gui-challenges/'},{'Designing in the Browser':'web.dev/shows/designing-in-the-browser/'},{'Can I Include (elements)':'caninclude.glitch.me'},{'Flowbite':'flowbite.com'},{'Bootstrap':'getbootstrap.com'},{'Codecademy CSS':'codecademy.com/learn/learn-css'},{'W3Schools CSS':'w3schools.com/css'},{'Mozilla CSS Docs':'developer.mozilla.org/en-US/docs/Web/CSS'},{'nerdy dev':'nerdy.dev'},{'Set Studio':'set.studio'}],
       id: 4,
       isOpen: false,
     },
@@ -147,7 +147,7 @@
         {#if card.isOpen}
           <ul transition:slide>
             {#each card[Object.keys(card)[0]] as link}
-              <li><a href="https://{link}" target="_blank">{link}</a></li>
+              <li><a href="https://{Object.values(link)}" target="_blank">{Object.keys(link)}</a></li>
             {/each}
           </ul>
         {/if}
