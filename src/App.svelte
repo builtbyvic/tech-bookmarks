@@ -117,6 +117,18 @@
       "🔙 If you ever decide to do Back-End": [{'Go':'go.dev'},{'Rust cheats (Rust)':'cheats.rs'}]
     }
   ];
+
+ /*  gateway to implementing simple search functionality, might need to modify data structure (I think we have too much nesting for now, brush up on Svelte stores & JS array methods)*/
+  // for (let card of cards) {
+  //   let resourceList = Object.entries(card);
+  //   let webResources = resourceList[0];
+  //   console.log(webResources[1]);
+  //   let resourceNames = Object.values(webResources[1]);
+  //   console.log(resourceNames);
+  //   console.log(resourceList[0]);
+  //   console.log(resourceList);
+  //   console.log(typeof resourceList);
+  // }
   
 </script>
 
