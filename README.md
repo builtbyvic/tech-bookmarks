@@ -1,4 +1,4 @@
 # tech-bookmarks
 
-Web resources for developers
+Web resources for developers.
 
