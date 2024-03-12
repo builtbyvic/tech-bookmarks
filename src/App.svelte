@@ -1,5 +1,6 @@
 <script>
   import { slide } from 'svelte/transition';
+  import Search from './lib/Search.svelte';
   function toggleMenu(index) {
     cards[index].isOpen = !cards[index].isOpen;
   }
@@ -118,16 +119,18 @@
     }
   ];
 
- /*  gateway to implementing simple search functionality, might need to modify data structure (I think we have too much nesting for now, brush up on Svelte stores & JS array methods)*/
-  // for (let card of cards) {
-  //   let resourceList = Object.entries(card);
-  //   let webResources = resourceList[0];
-  //   console.log(webResources[1]);
-  //   let resourceNames = Object.values(webResources[1]);
-  //   console.log(resourceNames);
-  //   console.log(resourceList[0]);
-  //   console.log(resourceList);
-  //   console.log(typeof resourceList);
+  let searchTerm = '';
+  let filteredCards = [];
+
+  // function handleSearch() {
+  //   if (searchTerm.trim() === '') {
+  //     filteredCards = cards;
+  //   } else {
+  //     filteredCards = cards.map(card => {
+  //       ...card,
+
+  //     })
+  //   }
   // }
   
 </script>
@@ -143,10 +146,7 @@
     </nav>
     <a href="https://builtbyvic.github.io" target="_blank">first time?</a>
   </header>
-  <div class="input-wrapper">
-    <label for="search">🔎</label>
-    <input type="search" id="search" placeholder="Coming Soon..."/>
-  </div>
+  <!-- <Search bind:{searchTerm} onInput={handleSearch}/> -->
   <section>
     {#each cards as card, index}
       <article>
@@ -244,24 +244,6 @@
   }
   header > a:hover {
     background-image: linear-gradient(to right,rgba(0 0 0 / 0.9),rgba(255 255 255 / 0.2));
-  }
-  .input-wrapper {
-    /* border: 2px solid red; */
-    align-items: center;
-    display: flex;
-    font-size: var(--xxl);
-    inline-size: 540px;
-    margin-block: var(--large);
-  }
-  [type="search"] {
-    background-color: transparent;
-    border: var(--border-glass);
-    border-radius: var(--large);
-    padding: var(--large);
-    inline-size: 100%;
-  }
-  [type="search"]:focus {
-    outline: 1px solid rgba(255 255 255 / 0.2);
   }
   header a span,
   footer a span {
@@ -430,9 +412,7 @@
       padding: var(--small) var(--regular) var(--small);
       font-size: var(--regular);
     }
-    .input-wrapper {
-      inline-size: 100%;
-    }
+
     ul li {
       font-size: var(--regular);
     }
